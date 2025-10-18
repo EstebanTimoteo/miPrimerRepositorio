@@ -1,0 +1,398 @@
+a.regresar {
+  display: block;
+}
+
+h1.Izquierda {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+ul.eje1 {
+  list-style-type: none; /* Quita las bolitas */
+  padding: 0; /* Quita el relleno por defecto */
+  margin: 0; /* Quita el margen por defecto */
+  display: flex;
+  background-color: rgb(177, 172, 169);
+  width: 772.45px;
+  height: 37.71px;
+  gap: 10px;
+  align-items: center;
+}
+
+ul.eje1 a,
+ul.eje1 a:link,
+ul.eje1 a:visited,
+ul.eje1 a:active {
+  text-decoration: none;
+  color: black;
+}
+
+ul.eje1 li a:hover {
+  color: white;
+  background-color: black;
+}
+
+ul.eje1 a {
+  padding: 10px;
+}
+
+ul.eje2 {
+  list-style-type: none; /* Quita las bolitas */
+  padding: 0; /* Quita el relleno por defecto */
+  margin: 0; /* Quita el margen por defecto */
+  display: flex;
+  background-color: rgb(177, 172, 169);
+  width: 664.66px;
+  height: 37.71px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.eje2 a,
+ul.eje2 a:link,
+ul.eje2 a:visited,
+ul.eje2 a:active {
+  text-decoration: none;
+  color: black;
+}
+
+ul.eje2 li a:hover {
+  color: white;
+  background-color: black;
+}
+
+ul.eje2 a {
+  padding: 10px;
+}
+
+ul.eje3 {
+  list-style-type: none; /* Quita las bolitas */
+  padding: 0; /* Quita el relleno por defecto */
+  margin: 0; /* Quita el margen por defecto */
+  display: flex;
+  background-color: rgb(177, 172, 169);
+  width: 701.91px;
+  height: 37.71px;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.eje3 a,
+ul.eje3 a:link,
+ul.eje3 a:visited,
+ul.eje3 a:active {
+  text-decoration: none;
+  color: black;
+}
+
+ul.eje3 li a:hover {
+  display: block;
+  color: white;
+  background-color: black;
+}
+
+ul.eje3 a {
+  padding: 10px;
+}
+
+ul.eje4 {
+  list-style-type: none; /* Quita las bolitas */
+  padding: 0; /* Quita el relleno por defecto */
+  margin: 0; /* Quita el margen por defecto */
+  background-color: rgb(177, 172, 169);
+  width: 633.83px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul.eje4 a,
+ul.eje4 a:link,
+ul.eje4 a:visited,
+ul.eje4 a:active {
+  text-decoration: none;
+  color: black;
+}
+
+ul.eje4 li a:hover {
+  color: white;
+  background-color: black;
+}
+
+ul.eje4 a {
+  padding: 10px;
+  display: block;
+}
+
+div.contenedor {
+  background-color: rgb(127, 128, 129);
+  display: flex;
+}
+
+div.imagen1,
+div.imagen2,
+div.imagen3,
+div.imagen4,
+div.imagen5,
+div.imagen6 {
+  border: 2px dashed black;
+  width: 250px;
+  height: 250px;
+}
+
+div.contenedor img {
+  width: 100%;
+  height: 100%;
+}
+
+div.contenedor2 {
+  background-color: rgb(127, 128, 129);
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+div.imagen1,
+div.imagen2,
+div.imagen3,
+div.imagen4,
+div.imagen5,
+div.imagen6 {
+  border: 2px dashed black;
+  width: 250px;
+  height: 250px;
+}
+
+div.contenedor2 img {
+  width: 100%;
+  height: 100%;
+}
+
+h1.Viajes {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  width: 75%;
+  height: 70px;
+}
+
+div.contenedor3 {
+  display: flex;
+  width: 75%;
+  margin: 0;
+  padding: 0;
+}
+
+div.contenedor3 img {
+  border: 1px solid black;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.img1,
+.img2,
+.img3 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img1 {
+  background-color: rgb(93, 172, 93);
+}
+
+.img2 {
+  background-color: rgb(45, 109, 228);
+}
+
+.img3 {
+  background-color: rgb(189, 166, 123);
+}
+
+div.contenedor3 p {
+  padding: 15px;
+  font-size: 30px;
+}
+
+div.contenedor3 img {
+  margin-top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+div.regresar {
+  display: flex;
+  background-color: rgb(28, 226, 28);
+  justify-content: space-around;
+  height: 100px;
+}
+
+div.regresar img {
+  object-fit: cover;
+}
+
+div.regresar h1,
+div.regresar a {
+  align-self: center;
+  font-size: 50px;
+}
+nav.navegador ul.nav {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 2px;
+  background-color: green;
+  font-size: 40px;
+  gap: 2px;
+  height: 50px;
+}
+ul.nav {
+  display: flex;
+  list-style-type: none;
+
+}
+
+ul.nav li a:hover {
+  color: white;
+  background-color: black;
+}
+
+ul.nav a,
+ul.nav a:link,
+ul.nav a:visited,
+ul.nav a:active {
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+
+}
+
+div.imagen img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+div.imagen{
+    width: 100%;
+    height: 100px;
+}
+
+.casas{
+  border: 10px solid gold;
+  margin: 50px 50px 50px 50px;
+  padding: 5%;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  background-color: rgb(255, 238, 144);
+}
+
+div.casas .casicon {
+  width: 100px;
+  height: 100px;
+  color: rgb(192, 163, 0);
+  
+}
+
+main.ejercicio8 h2 {
+  text-transform: uppercase;
+}
+
+.camping{
+  border: 10px solid green;
+  margin: 50px 50px 50px 50px;
+  padding: 5%;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  background-color: rgb(111, 248, 111);
+}
+
+div.camping .campicon {
+  width: 100px;
+  height: 100px;
+  color: rgb(3, 87, 3);
+  
+}
+
+.hoteles{
+  border: 10px solid blue;
+  margin: 50px 50px 50px 50px;
+  padding: 5%;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  background-color: rgb(88, 130, 245);
+}
+
+div.hoteles .edicon {
+  width: 100px;
+  height: 100px;
+  color: rgb(2, 2, 184);
+  
+}
+
+div.opciones {
+  background-color: rgb(167, 167, 167);
+  padding: 10px;
+}
+
+div.opciones * {
+  margin-left: 20px;
+}
+
+div.opciones svg {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+.estrellas {
+  display: inline;
+  
+  font-size: 50px;
+  color: #ccc; /* Color de las estrellas sin seleccionar */
+
+}
+
+/* Ocultar los botones de radio originales */
+.estrellas input {
+  display: none;
+
+}
+
+/* Estilo para las estrellas al pasar el ratón */
+.estrellas label:hover,
+.estrellas label:hover ~ label {
+  color: #ffcc00; /* Cambia a amarillo al pasar el ratón */
+}
+
+/* Estilo para las estrellas seleccionadas */
+.estrellas input:checked ~ label {
+  color: #ffcc00; /* Mantiene el color amarillo al seleccionar */
+}
+
+/* Restaura el color de las estrellas que no están dentro de la selección */
+.estrellas input:checked ~ label:hover,
+.estrellas input:checked ~ label:hover ~ label {
+  color: #ffcc00;
+}
